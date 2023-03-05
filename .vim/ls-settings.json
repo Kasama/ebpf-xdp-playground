@@ -1,0 +1,17 @@
+{
+  "rust-analyzer": {
+    "cargo": {
+      "target": "bpfel-unknown-none"
+    },
+    "cargo-watch": {
+      "allTargets": false,
+      "arguments": [
+        "--target",
+        "bpfel-unknown-none"
+      ]
+    },
+    "checkOnSave": {
+      "allTargets": false
+    }
+  }
+}
